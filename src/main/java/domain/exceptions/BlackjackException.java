@@ -1,4 +1,7 @@
-package domain;
+package domain.exceptions;
 
-public class BlackjackException {
+public class BlackjackException extends RuntimeException {
+    public BlackjackException(String message) {
+        super(message);
+    }
 }

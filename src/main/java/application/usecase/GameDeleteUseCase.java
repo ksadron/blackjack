@@ -1,4 +1,5 @@
 package application.usecase;
 
-public class GameDeleteUseCase {
+public interface GameDeleteUseCase {
+    void removePlayer(String name);
 }

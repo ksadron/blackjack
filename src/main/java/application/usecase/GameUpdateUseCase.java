@@ -1,4 +1,6 @@
 package application.usecase;
 
-public class GameUpdateUseCase {
+public interface GameUpdateUseCase {
+    void hit(String playerName);
+    void stand(String playerName);
 }

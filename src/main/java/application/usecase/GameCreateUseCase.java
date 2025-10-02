@@ -1,4 +1,7 @@
 package application.usecase;
 
-public class GameCreateUseCase {
+import domain.model.Player;
+
+public interface GameCreateUseCase {
+    void createPlayer(String name);
 }
